@@ -1,0 +1,7 @@
+FROM php:7.2-fpm
+
+RUN apt-get update
+
+ADD ./docker/.bashrc /root
+
+WORKDIR /var/www
