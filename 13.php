@@ -15,6 +15,8 @@ abstract class AbstractClass
     }
 
     /**
+     * Ответ:
+     *
      * мы сделали методы абстрактными, поведение этих методов будет определено в классе-потомке
      */
     abstract public function writeToFile();
